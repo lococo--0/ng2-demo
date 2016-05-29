@@ -1,10 +1,10 @@
 import { Component } from "@angular/core";
-import { PageComponent } from "./pages/page/page.component";
+import { Page1Component } from "./pages/page1/page1.component";
 
 @Component({
   selector: "my-app",
   templateUrl: './app.component.html',
-  directives: [PageComponent]
+  directives: [Page1Component]
 })
 export class AppComponent {
 }
